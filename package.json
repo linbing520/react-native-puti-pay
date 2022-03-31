@@ -1,5 +1,5 @@
 {
-  "name": "react-native-puti-pay",
+  "name": "react-native-puti-pay-nowechatlib",
   "version": "1.4.0",
   "description": "微信和支付宝支付的react-native模块",
   "main": "index.js",
@@ -13,12 +13,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/puti94/react-native-puti-pay.git"
+    "url": "git+https://github.com/linbing520/react-native-puti-pay.git"
   },
   "author": "菩提",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/puti94/react-native-puti-pay/issues"
+    "url": "https://github.com/linbing520/react-native-puti-pay/issues"
   },
-  "homepage": "https://github.com/puti94/react-native-puti-pay#readme"
+  "homepage": "https://github.com/linbing520/react-native-puti-pay#readme"
 }
