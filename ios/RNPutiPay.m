@@ -48,9 +48,10 @@ RCT_EXPORT_MODULE(PutiPay)
     }
 }
 
-RCT_EXPORT_METHOD(setWxId:(NSString *)wxid){
+RCT_EXPORT_METHOD(setWxId:(NSString *)wxid
+                  :(NSString *)universalLink){
     wxOpenId = wxid;
-    [WXApi registerApp:wxid];
+    [WXApi registerApp:wxid universalLink:universalLink];
 }
 RCT_EXPORT_METHOD(setAlipayScheme:(NSString *)scheme){
     alipayScheme = scheme;

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B3E7B58A1CC2AC0600A0062D /* RNPutiPay.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNPutiPay.m */; };
-		C520E29621BAB60400769D4D /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C520E29221BAB60300769D4D /* libWeChatSDK.a */; };
 		C520E31521BAC01100769D4D /* AlipaySDK in Frameworks */ = {isa = PBXBuildFile; fileRef = C520E31421BAC01100769D4D /* AlipaySDK */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +27,6 @@
 		134814201AA4EA6300B7C361 /* libRNPutiPay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNPutiPay.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E7B5881CC2AC0600A0062D /* RNPutiPay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNPutiPay.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNPutiPay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNPutiPay.m; sourceTree = "<group>"; };
-		C520E29221BAB60300769D4D /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
 		C520E29321BAB60300769D4D /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
 		C520E29421BAB60400769D4D /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		C520E29521BAB60400769D4D /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
@@ -70,7 +68,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C520E31521BAC01100769D4D /* AlipaySDK in Frameworks */,
-				C520E29621BAB60400769D4D /* libWeChatSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +85,6 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				C520E29221BAB60300769D4D /* libWeChatSDK.a */,
 				C520E29321BAB60300769D4D /* WechatAuthSDK.h */,
 				C520E29521BAB60400769D4D /* WXApi.h */,
 				C520E29421BAB60400769D4D /* WXApiObject.h */,
@@ -269,6 +265,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 58B511D21A9E6C8500147676;
